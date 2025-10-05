@@ -4,7 +4,6 @@ A sleek, modern, and user-friendly desktop calculator built with Python and Tkin
 
 ![Python](https://img.shields.io/badge/Python-3.6%2B-blue?logo=python)
 ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Status](https://img.shields.io/badge/Status-Stable-brightgreen)
 
 ---
@@ -20,7 +19,6 @@ A sleek, modern, and user-friendly desktop calculator built with Python and Tkin
 - [Code Overview](#code-overview)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
-- [License](#license)
 - [Developer](#developer)
 
 ---
@@ -64,13 +62,13 @@ To run this calculator on your local machine, follow these steps:
     ```
 3.  **Run the application**:
     ```bash
-    python Talha's Calculator.py
+    python "Talhas Calc.py"
     ```
-    *If the above command doesn't work, try `python3 Talha's Calculator.py`.*
+    *If the above command doesn't work, try `python3 "Talhas Calc.py`.*
 
 ## 🎮 Usage
 
-1.  Launch the application by running `Talha's Calculator.py`.
+1.  Launch the application by running `Talhas Calc.py`.
 2.  Use your mouse to click on the number buttons (`0-9`) to input digits.
 3.  Select an operation button (`+`, `-`, `*`, `/`).
 4.  Continue entering the second number.
@@ -82,19 +80,17 @@ To run this calculator on your local machine, follow these steps:
 ```
 Calculator-with-Tkinter/
 │
-├── Talha's Calculator.py      # The main source code file for the calculator application.
-├── README.md          # Project documentation (this file).
-└── .gitignore         # Specifies files intentionally untracked by Git.
+├── Talhas Calc.py     # The main source code file for the calculator application.
+└── README.md          # Project documentation (this file).
 ```
 
 ## 🔍 Code Overview
 
-### Main Components (`calculator.py`)
+### Main Components (`Talhas Calc.py`)
 
 The application is structured within a single Python script:
 
-- **`Calculator` Class**: The main class that initializes the GUI and handles the application logic.
-- **GUI Initialization (`__init__`)**:
+- **GUI Initialization**:
     - Creates the main application window (`Tk`).
     - Sets up the title, geometry, and resizability.
     - Configures a modern dark theme for all widgets.
@@ -102,7 +98,7 @@ The application is structured within a single Python script:
     - **Display**: An `Entry` widget used as a read-only display for numbers and results.
     - **Button Frame**: A `Frame` to hold all the calculator buttons.
     - **Buttons**: Dynamically created buttons for digits, operators, and actions, arranged in a grid layout.
-- **Core Methods**:
+- **Core Functions**:
     - `button_click(number)`: Appends clicked numbers and operators to the current expression in the display.
     - `button_clear()`: Clears the display field.
     - `button_equal()`: Evaluates the mathematical expression in the display using `eval()` and shows the result or an error message.
@@ -122,17 +118,13 @@ This project uses only Python's standard library, requiring no external packages
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/DeadboyTALHA/Calculator-with-Tkinter/issues) (if available).
+Contributions, issues, and feature requests are welcome! 
 
 1. Fork the Project.
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
 4. Push to the Branch (`git push origin feature/AmazingFeature`).
 5. Open a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Developer
 
@@ -143,5 +135,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 **⭐ Star this repo if you found it helpful!**
-
----
