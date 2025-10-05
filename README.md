@@ -64,13 +64,13 @@ To run this calculator on your local machine, follow these steps:
     ```
 3.  **Run the application**:
     ```bash
-    python calculator.py
+    python Talha's Calculator.py
     ```
-    *If the above command doesn't work, try `python3 calculator.py`.*
+    *If the above command doesn't work, try `python3 Talha's Calculator.py`.*
 
 ## 🎮 Usage
 
-1.  Launch the application by running `calculator.py`.
+1.  Launch the application by running `Talha's Calculator.py`.
 2.  Use your mouse to click on the number buttons (`0-9`) to input digits.
 3.  Select an operation button (`+`, `-`, `*`, `/`).
 4.  Continue entering the second number.
@@ -82,7 +82,7 @@ To run this calculator on your local machine, follow these steps:
 ```
 Calculator-with-Tkinter/
 │
-├── calculator.py      # The main source code file for the calculator application.
+├── Talha's Calculator.py      # The main source code file for the calculator application.
 ├── README.md          # Project documentation (this file).
 └── .gitignore         # Specifies files intentionally untracked by Git.
 ```
